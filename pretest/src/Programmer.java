@@ -5,9 +5,6 @@ class Programmer extends Karyawan {
         this.gajiPokok = gajiPokok;
     }
 
-    public String getNama() {
-        return nama;
-    }
     public double getGajiPokok() {
         return gajiPokok;
     }
