@@ -8,7 +8,7 @@ public class KartuKredit extends Pembayaran implements Keamanan {
 
     @Override    
     public void prosesPembayaran(){
-        double admin = 0.2 * this.nominal;
+        double admin = 0.02 * this.nominal;
         System.out.println("Total Tagihan: " + (admin + this.nominal));
     }
     @Override
